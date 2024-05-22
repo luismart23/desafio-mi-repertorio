@@ -7,6 +7,3 @@ CREATE TABLE canciones (
     tono VARCHAR(20) NOT NULL,
     UNIQUE (titulo, artista)
 );
-
-
-SELECT * FROM canciones;

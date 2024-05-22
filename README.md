@@ -34,6 +34,23 @@ SELECT * FROM LIBROS;
 
 -- seeders
 INSERT INTO LIBROS (ID, NOMBRE, PRECIO, AUTOR) VALUES 
-('z-FrmrjC3B-ttWgg5n7Tu', 'NOMBRE 1', 100, 'AUTOR 1'),
-('A-FrmrjC3B-ttWgg5n7Tu', 'NOMBRE 2', 200, 'AUTOR 2');
-```
+[
+{
+"id": 1,
+"titulo": "TOXICITY",
+"artista": "SYSTEM OF A DOWN",
+"tono": "BM"
+},
+{
+"id": 2,
+"titulo": "Nada nuevo bajo el sol",
+"artista": "Los Bunkers",
+"tono": "dm"
+},
+{
+"id": 4,
+"titulo": "Back To School",
+"artista": "Deftones",
+"tono": "bm"
+}
+]
